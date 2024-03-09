@@ -77,7 +77,7 @@ WSGI_APPLICATION = 'crudPython.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postresql',
-        'NAME': BASE_DIR / 'tasksdb',
+        'NAME': 'ingenieria',
         'USER': 'postgres',
         'PASSWORD':'contrasenia123',
         'HOST'    : '127.0.0.1',
